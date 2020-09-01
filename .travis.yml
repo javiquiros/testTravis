@@ -7,7 +7,6 @@ language: generic
 
 services:
   - docker
-<<<<<<< HEAD
 
   addons:
     sonarcloud:
@@ -19,5 +18,3 @@ script:
     # other script steps might be done before running the actual analysis
     - sonar-scanner
           
-=======
->>>>>>> add travis file
