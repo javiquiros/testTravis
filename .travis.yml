@@ -1,4 +1,4 @@
-dist: bionic
+dist: trusty
 
 git:
   depth: false
@@ -13,6 +13,9 @@ addons:
     organization: "javiquiros"
     token:
       secure: "l9PPUrm+QBkVJz5SNi32umH/ou/epZ2p+RhuAVqBlKduScyX08vGZwMx5iJcl4sf5jdE1TcbyTx8KA9yaL2weRw7IF7XPyU7kXTp9nFO3Wh/k1Kws2y03mU4SNLeYSV1xlwZNsI4k4eQVH/gfNGjpgQJfECROi4BHeFuqQKbU+QnaP+Pbx5wGGpnc/mwmSnvn8wik52O7F5v0+FsQt51Mjtif1ehXaQSgfIQYb3HJ8+kf9mHRxj8Lpp4gUUNvZpas9g6pgXwsCl7W9kUA4YDQC3kvv7jN59H+ymo7Aadwad482jHS8o+gy5D4apkY5lm89jaeS5za73TNweJd2ZX0fc2Ec3VjTwc6kTQI1Yd7c0uOOaaoTEEllZtCq5K7oneurIWCfiMAfXaqy417o3KFKx7JbLdKzhpZrQp7pUcbMKMGysPp4fLzslqn2rDFV/F06SZbI2ceCAvEiJToeapkAVlM43bZwVD155cCJYThOy6wnJ+YcEPN1iuuJRBG0PteI/GBlttoOk3ozz/Fbu85UZvqCcymqmpSUD/apa2er3r4T8p/YLQCywOw89CbeIdcjz5dDrONcEfu3jhUyQZ3SlyYOPIQOJtqm8Fh0r9VrCQnq58RzstbTekDtGmABcXc63ivHQuIG14JZYP2x6q7kUrp7LeWlZH+IwOX8zf8I0="
+
+jdk:
+  - oraclejdk11
 
 after_success:
     # other script steps might be done before running the actual analysis
