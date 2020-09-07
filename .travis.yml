@@ -17,4 +17,3 @@ services:
 after_success:
     # other script steps might be done before running the actual analysis
     - sonar-scanner
-          
